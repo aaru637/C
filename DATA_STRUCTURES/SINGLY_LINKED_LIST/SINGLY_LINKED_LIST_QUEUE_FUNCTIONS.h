@@ -71,7 +71,7 @@ int isEmpty(){
 
 int search(int value){
 	if(head == NULL){
-		printf("\nStack is Empty.\n");
+		printf("\nQueue is Empty.\n");
 		return -1;
 	}
 	else{
@@ -90,7 +90,7 @@ int search(int value){
 
 void sort(){
 	if(head == NULL){
-		printf("\nStack is Empty.\n");
+		printf("\nQueue is Empty.\n");
 	}
 	else{
 		struct queue *ptr1, *ptr2;
