@@ -58,7 +58,7 @@ int pop(){
 
 int peek(){
 	if(head == NULL){
-		printf("\nStack iS Empty.\n");
+		printf("\nStack is Empty.\n");
 		return -1;
 	}
 	else{
